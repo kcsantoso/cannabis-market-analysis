@@ -1,1 +1,5 @@
-# cannabis-market-analysis
+# cannabis-market-analysis- March 2022
+
+This project was completed as part of the Computer Science 148M- Introduction to Data Science course. The analysis.ipynb contains the code used to generate the results discussed in the PDF report, divided into sections describing my process. The project involved manipulating multiple raw datasets into one central source of information to implement machine learning models on, adding time series features to take advantage of the chronological data given, and  feature engineering new variables out of multivariate categorical variables with large numbers of categories.
+
+The goal of the project was to hone in on the factors that make a specific cannabis brand successful, as this is such a novel industry. To do this, we model the monthly total sales of a brand based on its other financial indicators and product inventory. My optimal random forest regression model using the optimal parameters found through the grid search obtained a high R-squared value of over 0.95. Other models tried include Support Vector Regression, KNN, and Linear Regression, which did not perform very well as it seems that the data is not linearly separable.
